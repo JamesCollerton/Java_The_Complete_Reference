@@ -30,7 +30,15 @@ public class Bitwise_Operators {
 		// So this is the same as -128 + 64 = -64
 		System.out.println("11000000: " + (exampleThree >> 1 ));
 
+		System.out.println("01000000: " + (exampleThree >>> 1 ));
 		System.out.println("00000100: " + (exampleTwo << 1 ));
+
+		// Funky bitwise assignment
+		exampleOne |= exampleTwo;
+		System.out.println("00000011: " + exampleOne); 
+		
+		exampleTwo >>= 1;
+		System.out.println("00000001: " + exampleTwo);
 
 	}
 
