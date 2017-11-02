@@ -4,6 +4,7 @@ public class Flow_Control {
 		
 		doWhile();
 		useComma();		
+		forEachMultidimensional();		
 	
 	}
 
@@ -29,5 +30,24 @@ public class Flow_Control {
 		}
 
 	}
+
+	public static void forEachMultidimensional(){
+
+		int mdArr[][] = {
+			{1, 2, 3},
+			{4, 5, 6},
+			{7, 8, 9}
+		};
+
+		System.out.println("");
+
+		for(int[] x: mdArr){
+			for(int y: x){
+				System.out.println("" + y);
+			}
+		}
+
+	}
+
 }
 
