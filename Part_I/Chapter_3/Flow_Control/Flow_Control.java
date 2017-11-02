@@ -59,6 +59,17 @@ public class Flow_Control {
 			}
 			System.out.println("Less than five");
 		}
+
+		outer: for(int i = 0; i < 10; i++){
+			System.out.println();
+			inner: for(int j = 0; j < 10; j++){
+				System.out.print(j);
+				if(j >= i){
+					continue outer;
+				}	
+			}
+			System.out.println("");		
+		}
 	
 	}
 
