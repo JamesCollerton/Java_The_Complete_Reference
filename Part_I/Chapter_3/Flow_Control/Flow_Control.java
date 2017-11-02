@@ -5,6 +5,7 @@ public class Flow_Control {
 		doWhile();
 		useComma();		
 		forEachMultidimensional();		
+		continueLoops();
 	
 	}
 
@@ -47,6 +48,18 @@ public class Flow_Control {
 			}
 		}
 
+	}
+
+	public static void continueLoops(){
+
+		for(int i = 0; i < 10; i++){
+			System.out.println("" + i);
+			if(i > 5){
+				continue;
+			}
+			System.out.println("Less than five");
+		}
+	
 	}
 
 }
