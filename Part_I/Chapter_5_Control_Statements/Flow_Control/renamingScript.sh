@@ -15,7 +15,8 @@ do
 	echo "Removed _ to get $fileNoUnderscore";
 
 	# Change filename
-	#mv $file $(sed s/)
+	mv $file.java $fileNoUnderscore.java
 
 	# Change contents		
+	sed -i ''  s/$fileNoJava/$fileNoUnderscore/g $file
 done;
