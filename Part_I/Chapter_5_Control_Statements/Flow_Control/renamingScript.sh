@@ -10,7 +10,7 @@ do
 
 	echo "Removed .java to get $fileNoJava";
 
-	fileNoUnderscore=$(sed s/_// <<< $fileNoJava );
+	fileNoUnderscore=$(sed s/_// <<< $fileNoJava);
 
 	echo "Removed _ to get $fileNoUnderscore";
 
