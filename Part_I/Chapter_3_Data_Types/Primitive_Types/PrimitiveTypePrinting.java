@@ -1,4 +1,4 @@
-public class Primitive_Type_Printing {
+public class PrimitiveTypePrinting {
 
 	public static void main(String [] args){
 		int test = 1;

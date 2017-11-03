@@ -1,4 +1,4 @@
-public class Multidimensional_Arrays {
+public class MultidimensionalArrays {
 
 	public static void main(String[] args){
 		int[][] test = new int[2][];
