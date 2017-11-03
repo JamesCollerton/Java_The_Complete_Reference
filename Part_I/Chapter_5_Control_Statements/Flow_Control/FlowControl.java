@@ -1,4 +1,4 @@
-public class Flow_Control {
+public class FlowControl {
 
 	public static void main(String[] args){
 		
