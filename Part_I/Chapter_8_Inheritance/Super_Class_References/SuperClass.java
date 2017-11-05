@@ -1,0 +1,7 @@
+public class SuperClass {
+
+	SuperClass(){
+
+	}
+
+}
