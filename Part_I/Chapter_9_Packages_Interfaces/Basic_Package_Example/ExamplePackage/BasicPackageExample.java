@@ -2,7 +2,9 @@ package ExamplePackage;
 
 public class BasicPackageExample{
 
-	public static void main(String[] args){
+	public BasicPackageExample(){}
+
+	public void testMethod(){
 		System.out.println("Hello, world");
 	}
 
