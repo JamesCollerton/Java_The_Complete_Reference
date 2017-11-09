@@ -2,9 +2,9 @@ package PackageTwo;
 
 import PackageOne.PackageOneClass;
 
-public class PackageOneSubClass extends PackageOneClass {
+public class PackageTwoSubClass extends PackageOneClass {
 
-	PackageOneSubClass() { 
+	public PackageTwoSubClass() { 
 		System.out.println("" + publicInt);
 		System.out.println("" + protectedInt);
 		// System.out.println("" + defaultInt);
