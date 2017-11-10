@@ -1,5 +1,6 @@
 import PackageOne.PackageOneSubClass;
 import PackageTwo.PackageTwoSubClass;
+import PackageOne.PackageOneOtherClass;
 
 public class AccessExampleMain {
 
@@ -7,6 +8,8 @@ public class AccessExampleMain {
 
 		PackageOneSubClass packageOneSubClass = new PackageOneSubClass();
 		PackageTwoSubClass packageTwoSubClass = new PackageTwoSubClass();
+
+		PackageOneOtherClass packageOneOtherClass = new PackageOneOtherClass();
 
 	}
 
