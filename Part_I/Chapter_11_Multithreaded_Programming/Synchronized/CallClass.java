@@ -1,6 +1,6 @@
 public class CallClass {
 
-	public void call(String message) {
+	public synchronized void call(String message) {
 
 		try {
 			System.out.println("[");

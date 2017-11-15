@@ -3,9 +3,11 @@ public class SynchronizedExample {
 	public static void main(String[] args){
 
 		try {
-			ThreadClass threadA = new ThreadClass("Class A");
-			ThreadClass threadB = new ThreadClass("Class B");
-			ThreadClass threadC = new ThreadClass("Class C");
+			CallClass callClass = new CallClass();
+
+			ThreadClass threadA = new ThreadClass(callClass, "Class A");
+			ThreadClass threadB = new ThreadClass(callClass, "Class B");
+			ThreadClass threadC = new ThreadClass(callClass, "Class C");
 
 			threadA.start();
 			threadB.start();
