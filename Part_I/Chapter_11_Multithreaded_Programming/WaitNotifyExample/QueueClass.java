@@ -7,10 +7,15 @@ public class QueueClass {
 		
 		// If something's on the queue leave it.
 		while(valueExists){
-			wait();
+			try {
+				wait();
+			} catch(Exception e){
+				System.out.println("In exception for put.");
+			}
 		}
 
 		this.n = n;
+		System.out.println("Putting " + n);
 		valueExists = true;
 		notify();
 
@@ -19,10 +24,15 @@ public class QueueClass {
 	public synchronized int get(){
 		
 		while(!valueExists){
-			wait();
+			try{
+				wait();
+			} catch(Exception e){
+				System.out.println("In exception for get.");
+			}
 		}
 
 		valueExists = false;
+		System.out.println("Getting " + n);
 		notify();
 		return n;
 
