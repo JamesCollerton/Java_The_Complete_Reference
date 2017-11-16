@@ -2,11 +2,11 @@ public class QueueClass {
 
 	private int n;
 
-	public void put(int n){
+	public synchronized void put(int n){
 		this.n = n;
 	}
 
-	public int get(){
+	public synchronized int get(){
 		return n;
 	}
 
