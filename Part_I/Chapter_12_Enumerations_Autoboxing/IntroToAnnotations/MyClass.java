@@ -5,4 +5,9 @@ public class MyClass {
 
 	}
 
+	@MyAnnotation()
+	public void myDefaultMethod(){
+
+	}
+
 }

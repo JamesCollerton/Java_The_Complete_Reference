@@ -14,6 +14,13 @@ public class IntroToAnnotations {
 			MyAnnotation myAnnotation = myMethod.getAnnotation(MyAnnotation.class);
 			
 			System.out.println(myAnnotation.name() + ", " + myAnnotation.value());
+			
+			Method myDefaultMethod = myClassClass.getMethod("myDefaultMethod");
+			Annotation[] annotations =  myDefaultMethod.getAnnotations();
+
+			for(Annotation annotation : annotations){
+				System.out.println("" + annotation);
+			}
 
 		} catch (Exception e){
 		
