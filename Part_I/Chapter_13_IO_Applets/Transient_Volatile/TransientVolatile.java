@@ -5,6 +5,7 @@ public class TransientVolatile {
 	public static void main(String[] args){
 
 		serializeTest();
+		MyClass myClass = new MyClass();
 
 	}
 
