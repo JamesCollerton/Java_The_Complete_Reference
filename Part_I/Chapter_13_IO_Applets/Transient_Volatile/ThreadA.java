@@ -12,15 +12,14 @@ public class ThreadA implements Runnable {
 	@Override
 	public void run(){
 
-		try {
-			while(myClass.getValue() < 5){
+		int i = -1;
+
+		while(myClass.getValue() < 5){
+			if(myClass.getValue() != i) {
 				System.out.println("Getting value " + myClass.getValue());
-				Thread.sleep(500);
+				i = myClass.getValue();
 			}
-		} catch(InterruptedException e){
-			System.out.println("ThreadA interrupted" + e);
 		}
-	
 	}
 
 }
