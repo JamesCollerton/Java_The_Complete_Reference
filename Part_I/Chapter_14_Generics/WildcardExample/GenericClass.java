@@ -16,7 +16,7 @@ public class GenericClass<T extends Number> {
 		return total / n;
 	}
 
-	public boolean compareAverage(GenericClass<?> genericClass){
+	public boolean compareAverage(GenericClass<? extends Number> genericClass){
 		if(genericClass.average() == average()){
 			return true;
 		}
