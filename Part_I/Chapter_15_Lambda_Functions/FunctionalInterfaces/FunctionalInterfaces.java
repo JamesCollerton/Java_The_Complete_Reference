@@ -6,6 +6,10 @@ public class FunctionalInterfaces {
 
 		System.out.println("Functional interface example " + myNumber.getValue());	
 
+		MyNumberMultipleParameters myNumTwoParams = (a, b) -> a + b;
+
+		System.out.println("Functional interface example " + myNumTwoParams.getValue(1, 2));	
+
 	}
 
 }
