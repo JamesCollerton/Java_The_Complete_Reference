@@ -34,7 +34,6 @@ public class MainExample {
 
 		// General reference used on instance
 		ClassExample<Integer> classExampleTwo = new ClassExample<Integer>(5);
-//		Function<Integer[], Boolean> functionTwo = ClassExample::isIn;
 		checkIsIn(ClassExample::isIn, intArr, classExampleTwo);
 
 	}
