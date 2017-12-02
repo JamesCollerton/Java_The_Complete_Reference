@@ -2,8 +2,21 @@ import java.util.function.*;
 
 public class MainExample {
 
-	private :static <T> void checkIsIn(Function<T[], Boolean> function, T[] obj){
-		if(function.apply(obj).booleanValue()){
+	@FunctionalInterface
+	private interface InstanceMethodInterface<O, T> {
+		public Boolean execute(O obj, T[] arr);
+	}
+
+	private static <T> void checkIsIn(Function<T[], Boolean> function, T[] objArr){
+		if(function.apply(objArr).booleanValue()){
+			System.out.println("In the array");
+		} else {
+			System.out.println("Not in the array");
+		}
+	}
+
+	private static <O, T> void checkIsIn(InstanceMethodInterface<O, T> function, T[] objArr, O object){
+		if(function.execute(object, objArr).booleanValue()){
 			System.out.println("In the array");
 		} else {
 			System.out.println("Not in the array");
@@ -20,8 +33,9 @@ public class MainExample {
 		checkIsIn(functionOne, intArr);	
 
 		// General reference used on instance
-		Function<Integer[], Boolean> functionTwo = ClassExample::isIn;
-		
+		ClassExample<Integer> classExampleTwo = new ClassExample<Integer>(5);
+//		Function<Integer[], Boolean> functionTwo = ClassExample::isIn;
+		checkIsIn(ClassExample::isIn, intArr, classExampleTwo);
 
 	}
 
