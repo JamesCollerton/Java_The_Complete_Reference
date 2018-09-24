@@ -22,11 +22,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreatingThreads.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CreatingThreads.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/partone/chapterelevenmultithreadedprogramming/creatingthreads/CreatingThreads.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="324">
               <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IsAliveJoin.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/partone/chapterelevenmultithreadedprogramming/isalivejoin/IsAliveJoin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExampleThread.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/partone/chapterelevenmultithreadedprogramming/isalivejoin/ExampleThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+              <folding>
+                <element signature="e#601#602#0" expanded="true" />
+                <element signature="e#630#631#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,6 +95,8 @@
         <option value="$PROJECT_DIR$/src/main/java/partone/chapterelevenmultithreadedprogramming/creatingthreads/ExtendsThread.java" />
         <option value="$PROJECT_DIR$/src/main/java/partone/chapterelevenmultithreadedprogramming/creatingthreads/ImplementsRunnable.java" />
         <option value="$PROJECT_DIR$/src/main/java/partone/chapterelevenmultithreadedprogramming/creatingthreads/CreatingThreads.java" />
+        <option value="$PROJECT_DIR$/src/main/java/partone/chapterelevenmultithreadedprogramming/isalivejoin/ExampleThread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/partone/chapterelevenmultithreadedprogramming/isalivejoin/IsAliveJoin.java" />
       </list>
     </option>
   </component>
@@ -148,7 +172,47 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="partone" type="462c0819:PsiDirectoryNode" />
               <item name="chapterelevenmultithreadedprogramming" type="462c0819:PsiDirectoryNode" />
+              <item name="isalivejoin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaTheCompleteReference" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IntelliJProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="partone" type="462c0819:PsiDirectoryNode" />
+              <item name="chapterelevenmultithreadedprogramming" type="462c0819:PsiDirectoryNode" />
               <item name="mainthread" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaTheCompleteReference" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="JavaTheCompleteReference" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8_172 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="JavaTheCompleteReference" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8_172 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaTheCompleteReference" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8_172 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaTheCompleteReference" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8_172 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -175,7 +239,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CreatingThreads">
+  <component name="RunManager" selected="Application.IsAliveJoin">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -186,6 +250,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="partone.chapterelevenmultithreadedprogramming.creatingthreads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="IsAliveJoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="partone.chapterelevenmultithreadedprogramming.isalivejoin.IsAliveJoin" />
+      <module name="IntelliJProject" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="partone.chapterelevenmultithreadedprogramming.isalivejoin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -258,9 +333,11 @@
     <list>
       <item itemvalue="Application.MainThread" />
       <item itemvalue="Application.CreatingThreads" />
+      <item itemvalue="Application.IsAliveJoin" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IsAliveJoin" />
         <item itemvalue="Application.CreatingThreads" />
         <item itemvalue="Application.MainThread" />
       </list>
@@ -358,6 +435,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/Exception.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/partone/chapterelevenmultithreadedprogramming/isalivejoin/ExampleThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding>
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/partone/chapterelevenmultithreadedprogramming/isalivejoin/IsAliveJoin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -375,7 +477,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
