@@ -14,7 +14,12 @@ public class CallMeThread implements Runnable {
     }
 
     public void run() {
-        callMe.call(message);
+        synchronized (callMe) {
+            callMe.call(message);
+        }
     }
 
+    public Thread getThread() {
+        return thread;
+    }
 }

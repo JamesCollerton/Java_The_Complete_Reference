@@ -15,6 +15,14 @@ public class HelloSynchronizedWorld {
         CallMeThread synchronizedThread = new CallMeThread(callMe, "Synchronized");
         CallMeThread worldThread = new CallMeThread(callMe, "World");
 
+        try {
+            helloThread.getThread().join();
+            synchronizedThread.getThread().join();
+            worldThread.getThread().join();
+        } catch (InterruptedException e) {
+            System.out.println("Main thread interrupted.");
+        }
+
     }
 
 }
