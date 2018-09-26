@@ -13,24 +13,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HelloSynchronizedWorld.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/partone/chapterelevenmultithreadedprogramming/synchronizedexample/HelloSynchronizedWorld.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CallMe.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/partone/chapterelevenmultithreadedprogramming/synchronizedexample/CallMe.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="InterthreadCommunication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/partone/chapterelevenmultithreadedprogramming/interthreadcommunication/InterthreadCommunication.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -40,11 +22,77 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProducerThread.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ProducerThread.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/partone/chapterelevenmultithreadedprogramming/interthreadcommunication/ProducerThread.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
               <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SuspendingResumingStopping.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/partone/chapterelevenmultithreadedprogramming/suspendingresumingstopping/SuspendingResumingStopping.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SemaphoreQueueExample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/parttwo/chaptertwentyeightconcurrencyutilities/SemaphoreQueueExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConsumerExample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/parttwo/chaptertwentyeightconcurrencyutilities/ConsumerExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QueueExample.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/parttwo/chaptertwentyeightconcurrencyutilities/QueueExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#490#491#0" expanded="true" />
+                <element signature="e#532#533#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProducerExample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/parttwo/chaptertwentyeightconcurrencyutilities/ProducerExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadExample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/partone/chapterelevenmultithreadedprogramming/suspendingresumingstopping/ThreadExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+              <folding>
+                <element signature="e#662#663#0" expanded="true" />
+                <element signature="e#694#695#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,19 +111,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
               <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CallMeThread.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/partone/chapterelevenmultithreadedprogramming/synchronizedexample/CallMeThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="e#546#547#0" expanded="true" />
-                <element signature="e#575#576#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -113,6 +148,14 @@
         <option value="$PROJECT_DIR$/src/main/java/partone/chapterelevenmultithreadedprogramming/interthreadcommunication/QueueThread.java" />
         <option value="$PROJECT_DIR$/src/main/java/partone/chapterelevenmultithreadedprogramming/interthreadcommunication/InterthreadCommunication.java" />
         <option value="$PROJECT_DIR$/src/main/java/partone/chapterelevenmultithreadedprogramming/interthreadcommunication/ProducerThread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/partone/chapterelevenmultithreadedprogramming/suspendingresumingstopping/ThreadExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/partone/chapterelevenmultithreadedprogramming/suspendingresumingstopping/SuspendingResumingStopping.java" />
+        <option value="$PROJECT_DIR$/src/main/java/parttwo/chaptertwentyeightconcurrencyutilities/Producer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/parttwo/chaptertwentyeightconcurrencyutilities/ProducerExample2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/parttwo/chaptertwentyeightconcurrencyutilities/ConsumerExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/parttwo/chaptertwentyeightconcurrencyutilities/ProducerExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/parttwo/chaptertwentyeightconcurrencyutilities/SemaphoreQueueExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/parttwo/chaptertwentyeightconcurrencyutilities/QueueExample.java" />
       </list>
     </option>
   </component>
@@ -169,8 +212,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="partone" type="462c0819:PsiDirectoryNode" />
-              <item name="chapterelevenmultithreadedprogramming" type="462c0819:PsiDirectoryNode" />
+              <item name="parttwo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaTheCompleteReference" type="b2602c69:ProjectViewProjectNode" />
@@ -178,9 +220,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="partone" type="462c0819:PsiDirectoryNode" />
-              <item name="chapterelevenmultithreadedprogramming" type="462c0819:PsiDirectoryNode" />
-              <item name="interthreadcommunication" type="462c0819:PsiDirectoryNode" />
+              <item name="parttwo" type="462c0819:PsiDirectoryNode" />
+              <item name="chaptertwentyeightconcurrencyutilities" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -205,20 +246,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InterthreadCommunication">
+  <component name="RunManager" selected="Application.SemaphoreQueueExample">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-    </configuration>
-    <configuration name="CreatingThreads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="partone.chapterelevenmultithreadedprogramming.creatingthreads.CreatingThreads" />
-      <module name="IntelliJProject" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="partone.chapterelevenmultithreadedprogramming.creatingthreads.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
     </configuration>
     <configuration name="HelloSynchronizedWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="partone.chapterelevenmultithreadedprogramming.synchronizedexample.HelloSynchronizedWorld" />
@@ -253,13 +283,24 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="MainThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="partone.chapterelevenmultithreadedprogramming.mainthread.MainThread" />
+    <configuration name="SemaphoreQueueExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="parttwo.chaptertwentyeightconcurrencyutilities.SemaphoreQueueExample" />
       <module name="IntelliJProject" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="partone.chapterelevenmultithreadedprogramming.mainthread.*" />
+          <option name="PATTERN" value="parttwo.chaptertwentyeightconcurrencyutilities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="SuspendingResumingStopping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="partone.chapterelevenmultithreadedprogramming.suspendingresumingstopping.SuspendingResumingStopping" />
+      <module name="IntelliJProject" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="partone.chapterelevenmultithreadedprogramming.suspendingresumingstopping.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -319,19 +360,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="Application.MainThread" />
-      <item itemvalue="Application.CreatingThreads" />
       <item itemvalue="Application.IsAliveJoin" />
       <item itemvalue="Application.HelloSynchronizedWorld" />
       <item itemvalue="Application.InterthreadCommunication" />
+      <item itemvalue="Application.SuspendingResumingStopping" />
+      <item itemvalue="Application.SemaphoreQueueExample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SemaphoreQueueExample" />
+        <item itemvalue="Application.SuspendingResumingStopping" />
         <item itemvalue="Application.InterthreadCommunication" />
         <item itemvalue="Application.HelloSynchronizedWorld" />
         <item itemvalue="Application.IsAliveJoin" />
-        <item itemvalue="Application.CreatingThreads" />
-        <item itemvalue="Application.MainThread" />
       </list>
     </recent_temporary>
   </component>
@@ -368,12 +409,13 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2646421" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2646421" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info anchor="bottom" id="Docker" order="7" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -385,7 +427,6 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -476,6 +517,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding>
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -543,6 +588,60 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/partone/chapterelevenmultithreadedprogramming/suspendingresumingstopping/ThreadExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="e#662#663#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/partone/chapterelevenmultithreadedprogramming/suspendingresumingstopping/SuspendingResumingStopping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/parttwo/chaptertwentyeightconcurrencyutilities/SemaphoreQueueExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/parttwo/chaptertwentyeightconcurrencyutilities/ConsumerExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/parttwo/chaptertwentyeightconcurrencyutilities/ProducerExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/parttwo/chaptertwentyeightconcurrencyutilities/QueueExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
