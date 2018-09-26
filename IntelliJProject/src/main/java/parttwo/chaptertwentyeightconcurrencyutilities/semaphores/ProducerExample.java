@@ -1,4 +1,4 @@
-package parttwo.chaptertwentyeightconcurrencyutilities;
+package parttwo.chaptertwentyeightconcurrencyutilities.semaphores;
 
 import java.util.concurrent.Semaphore;
 

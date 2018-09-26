@@ -1,7 +1,6 @@
-package parttwo.chaptertwentyeightconcurrencyutilities;
+package parttwo.chaptertwentyeightconcurrencyutilities.semaphores;
 
 import java.util.concurrent.Semaphore;
-import partone.chapterelevenmultithreadedprogramming.interthreadcommunication.ProducerThread;
 
 public class SemaphoreQueueExample {
 
